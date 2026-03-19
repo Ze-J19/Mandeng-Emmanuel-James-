@@ -1,0 +1,94 @@
+/*the star applies it's properties to the whole document*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: none;
+}
+
+
+#header {
+  background-color: #0091EA;
+  background-position: center; /* the background position center with the background size cover helps to center theimage as background fill*/
+  background-size: cover;
+  height: 400px;
+  margin-bottom: 25px;
+  padding-top: 90px;
+  /* renders the background transparent*/
+}  
+
+h1 {
+  white-space: pre-wrap;/*wrap's text*/
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 25px;
+  margin-bottom: 55px;
+}
+
+nav, pre, a {
+  text-decoration-line: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+abbr:hover {/*the hover is a property that acts when the mouse is placed above the element */
+  text-decoration-line: solid;
+  color: #1A237E;
+}
+
+#about, #competences, #projects, #services, #certified, #contact {
+  background-color: #B3E5FC;
+  border-radius: 10px;
+  margin: 25px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+  
+#about img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  object-fit: cover;
+}
+
+.gallery {
+  display: grid;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  gap: 10px;
+} 
+
+.gallery img {
+  width: 100px;
+  height: 200px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn_contact {
+  border-radius: 25px;
+  border: none;
+  height: 50px;
+  width: 120px;
+}
+
+
+#green {
+  background-color: #1B5E20;
+}
+
+#blue {
+  background-color: #01579B;
+}
+
+footer {
+  margin-bottom: 0;
+  height: auto;
+  text-align: center;
+  padding: 25px;
+  background-color: #0091EA;
+}
